@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>HEALTHCARE</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        systems analyst
+        developer
+        research scientist
+
+    -->
+    <body>
+        <div>
+            <h1 class="TitleDescription">Healthcare</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="healthcareHeaderrow1" class="headerrow">
+            <div id="nurseHEADER" class="header" onmouseover="hoverNextPage(itCode)" onmouseout="notHoverNextPage(itCode)"> <h1> Registered Nurse </h1> </div>
+            <div id="doctorHEADER" class="header"> <h1> Medical Doctor </h1> </div>
+        </div>
+        <div id="healthcarerow1" class="careerrow">
+            <img id="nurse" class="career" src="images/healthcare/nurse.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="doctor" class="career" src="images/healthcare/doctor.jpg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="healthcareHeaderRow2" class="headerrow">
+            <div id="surgeonHEADER" class="header" onmouseover="hoverNextPage(itCode)" onmouseout="notHoverNextPage(itCode)"> <h1> Surgeon </h1> </div>
+            <div id="audiologistHEADER" class="header"> <h1> Audiologist </h1></div>
+        </div>
+        <div id="healthcareRow2" class="careerrow">
+            <img id="surgeon" class="career" src="images/healthcare/surgeon.jpeg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="audiologist" class="career" src="images/healthcare/audiologist.jpg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+
+    
+        <button id="GOTOmainPageFromHealthcare">Main Page</button>
+    
+    </body>
+
+    <script src="healthcareScript.js">
+        /*document.querySelector("#mainPageFromIT").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>

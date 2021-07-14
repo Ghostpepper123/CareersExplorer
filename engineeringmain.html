@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Engineering</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        
+
+    -->
+    <body>
+        <div>
+            <h1 class="TitleDescription">Engineering</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="engineeringHeaderRow1" class="headerrow">
+            <div id="mechanicalHEADER" class="header" onmouseover="hoverNextPage(tradesCode)" onmouseout="notHoverNextPage(tradesCode)"> <h1> Mechanical Engineers </h1> </div>
+            <div id="electricalHEADER" class="header"> <h1> Electrical Engineers </h1> </div>
+        </div>
+        <div id="engineeringRow1" class="careerrow">
+            <img id="mechanical" class="career" src="images/engineering/mecheng1.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="electrical" class="career" src="images/engineering/eleceng1.jpg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="engineeringHeaderRow2" class="headerrow">
+            <div id="enviroHEADER" class="header" onmouseover="hoverNextPage(tradesCode)" onmouseout="notHoverNextPage(tradesCode)"> <h1> Environmental Engineers </h1> </div>
+            <div id="civilHEADER" class="header"> <h1> Civil Engineers </h1></div>
+        </div>
+        <div id="engineeringRow2" class="careerrow">
+            <img id="enviro" class="career" src="images/engineering/enviroeng1.jpeg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="civil" class="career" src="images/engineering/civeng1.jpg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+        <div id="MainPageButton">
+            <div id="GOTOmainPageFromEngineering" class="graphicalButton"> <h1>Main Page</h1> </div>
+        </div>
+    </body>
+
+    <script src="engineeringScript.js">
+        //was mainPageFromIT
+        /*document.querySelector("#MainPageButton").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>

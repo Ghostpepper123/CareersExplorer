@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Business and Financial</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        
+
+    -->
+    <body>
+        <div>
+            <h1 class="Title">Business and Financial</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="businessHeaderRow1" class="headerrow">
+            <div id="accountantHEADER" class="header" onmouseover="hoverNextPage(businessCode)" onmouseout="notHoverNextPage(businessCode)"> <h1> Accountant </h1> </div>
+            <div id="financialanalystHEADER" class="header"> <h1> Financial Analyst </h1> </div>
+        </div>
+        <div id="businessRow1" class="careerrow">
+            <img id="accountant" class="career" src="images/business/accountant.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="financialanalyst" class="career" src="images/business/financialanalyst.jpeg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="businessHeaderRow2" class="headerrow">
+            <div id="fundraiserHEADER" class="header" onmouseover="hoverNextPage(businessCode)" onmouseout="notHoverNextPage(businessCode)"> <h1> Fundraiser </h1> </div>
+            <div id="marketHEADER" class="header"> <h1> Market Research Analyst</h1></div>
+        </div>
+        <div id="businessRow2" class="careerrow">
+            <img id="fundraiser" class="career" src="images/business/fundraiser.jpg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="market" class="career" src="images/business/marketresearchanalyst.jpeg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+        <div id="MainPageButton">
+            <div id="GOTOmainPageFromBusiness" class="graphicalButton"> <h1>Main Page</h1> </div>
+        </div>
+    </body>
+
+    <script src="businessScript.js">
+        //was mainPageFromIT
+        /*document.querySelector("#MainPageButton").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>

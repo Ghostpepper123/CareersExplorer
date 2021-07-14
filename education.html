@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Education</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        
+
+    -->
+    <body>
+        <div>
+            <h1 class="TitleDescription">Education</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="educationHeaderRow1" class="headerrow">
+            <div id="tutorHEADER" class="header" onmouseover="hoverNextPage(educationCode)" onmouseout="notHoverNextPage(educationCode)"> <h1> Tutor </h1> </div>
+            <div id="teacherHEADER" class="header"> <h1> Teachers </h1> </div>
+        </div>
+        <div id="educationRow1" class="careerrow">
+            <img id="tutor" class="career" src="images/education/tutor.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="teacher" class="career" src="images/education/teacher.jpg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="educationHeaderRow2" class="headerrow">
+            <div id="professorHEADER" class="header" onmouseover="hoverNextPage(educationCode)" onmouseout="notHoverNextPage(educationCode)"> <h1> Professors </h1> </div>
+            <div id="librarianHEADER" class="header"> <h1> Librarians </h1></div>
+        </div>
+        <div id="educationRow2" class="careerrow">
+            <img id="professor" class="career" src="images/education/professor.jpg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="librarian" class="career" src="images/education/librarian.jpeg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+        <div id="MainPageButton">
+            <div id="GOTOmainPageFromEducation" class="graphicalButton"> <h1>Main Page</h1> </div>
+        </div>
+    </body>
+
+    <script src="educationScript.js">
+        //was mainPageFromIT
+        /*document.querySelector("#MainPageButton").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>

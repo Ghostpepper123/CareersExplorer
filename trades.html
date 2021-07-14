@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Trades</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        
+
+    -->
+    <body>
+        <div>
+            <h1 class="TitleDescription">Trades</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="tradesHeaderRow1" class="headerrow">
+            <div id="electricianHEADER" class="header" onmouseover="hoverNextPage(tradesCode)" onmouseout="notHoverNextPage(tradesCode)"> <h1> Electricians </h1> </div>
+            <div id="pipefitterHEADER" class="header"> <h1> Pipefitters </h1> </div>
+        </div>
+        <div id="tradesRow1" class="careerrow">
+            <img id="electrician" class="career" src="images/trades/electrician.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="pipefitter" class="career" src="images/trades/pipefitter.jpg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="tradesHeaderRow2" class="headerrow">
+            <div id="aircraftHEADER" class="header" onmouseover="hoverNextPage(tradesCode)" onmouseout="notHoverNextPage(tradesCode)"> <h1> Aircraft Mechanics </h1> </div>
+            <div id="welderHEADER" class="header"> <h1> Welders </h1></div>
+        </div>
+        <div id="tradesRow2" class="careerrow">
+            <img id="aircraft" class="career" src="images/trades/aircraft.jpg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="welder" class="career" src="images/trades/welder.jpg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+        <div id="MainPageButton">
+            <div id="GOTOmainPageFromTrades" class="graphicalButton"> <h1>Main Page</h1> </div>
+        </div>
+    </body>
+
+    <script src="tradesScript.js">
+        //was mainPageFromIT
+        /*document.querySelector("#MainPageButton").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>

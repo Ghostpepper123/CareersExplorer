@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>INFORMATION TECHNOLOGY</title>
+        <link type="text/css" rel="stylesheet" href="css1.css">
+        <link rel="shortcut icon" href="images/pageicon.jpg">
+    </head>
+    <!--
+        systems analyst
+        developer
+        research scientist
+
+    -->
+    <body>
+        <div>
+            <h1 class="Title">Information Technology</h1>
+            <p class="TitleDescription">Find your place in the world!</p>
+        </div>
+
+        <div id="itHeaderRow1" class="headerrow">
+            <div id="developerHEADER" class="header" onmouseover="hoverNextPage(itCode)" onmouseout="notHoverNextPage(itCode)"> <h1> Software Developer </h1> </div>
+            <div id="sysanalystHEADER" class="header"> <h1> Computer Systems Analyst </h1> </div>
+        </div>
+        <div id="itRow1" class="careerrow">
+            <img id="developer" class="career" src="images/IT/developer.jpg" onmouseover="hoverNextPage('mech')" onmouseout="notHoverNextPage('mech')" ></img>
+            <img id="sysanalyst" class="career" src="images/IT/sysanalyst.jpg" onmouseover="hoverNextPage('elec')" onmouseout="notHoverNextPage('elec')" ></img>
+        </div>
+
+        <div id="itHeaderRow2" class="headerrow">
+            <div id="networkengineerHEADER" class="header" onmouseover="hoverNextPage(itCode)" onmouseout="notHoverNextPage(itCode)"> <h1> Network Engineer </h1> </div>
+            <div id="datascientistHEADER" class="header"> <h1> Data Scientist </h1></div>
+        </div>
+        <div id="itRow2" class="careerrow">
+            <img id="networkengineer" class="career" src="images/IT/networkengineer.jpg" onmouseover="hoverNextPage('enviro')" onmouseout="notHoverNextPage('enviro')" ></img>
+            <img id="datascientist" class="career" src="images/IT/datascientist.jpg" onmouseover="hoverNextPage('civil')" onmouseout="notHoverNextPage('civil')" ></img>
+        </div>
+
+        <div id="MainPageButton">
+            <div id="GOTOmainPageFromIT" class="graphicalButton"> <h1>Main Page</h1> </div>
+        </div>
+    </body>
+
+    <script src="itScript.js">
+        /*document.querySelector("#mainPageFromIT").addEventListener('click', function(){
+            window.document.location = './page1.html';
+        });*/
+    </script>
+</html>
